@@ -1,0 +1,100 @@
+body {
+    /* background-image: linear-gradient(to right top, #051937, #00446b, #00769d, #00abc9);*/
+   
+}
+
+.header{
+    text-align: center;
+    padding: 4px;
+}
+
+h2{
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+}
+
+input {
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 1px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+button {
+    transition-duration: 0.4s;
+    font-size: 17px;
+    background-color: black;   }
+  
+  button:hover {
+    background-color: #080808; 
+    color: rgb(136, 204, 204);
+  }
+
+
+
+/* CSS */
+.button-59 {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-59:focus {
+  color: #171e29;
+}
+
+.button-59:hover {
+  border-color: rgb(106, 194, 216);
+  color: rgb(106, 194, 216);
+  fill: rgb(106, 194, 216);
+}
+
+.button-59:active {
+  border-color: rgb(106, 194, 216);
+  color: rgb(106, 194, 216);
+  fill: rgb(106, 194, 216);
+}
+@media screen and (max-width: 800px) {
+    .header,body,html,#footer,p,h4, h2,table,tr,td,th,input,button{
+        font-size: smaller; /*{
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }*/
+  }
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
+  }
+}
+
+h4,p, .footer{
+    text-align: center;
+}
+
+
